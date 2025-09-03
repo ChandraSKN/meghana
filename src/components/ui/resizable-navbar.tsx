@@ -60,10 +60,10 @@ interface NavbarButtonProps extends React.ComponentPropsWithoutRef<"a"> {
   variant?: "primary" | "secondary" | "dark" | "gradient";
   children: React.ReactNode;
 }
+type WithUnknownProps = Record<string, unknown>;
 
-interface CloneElementProps {
+interface CloneElementProps extends WithUnknownProps {
   visible?: boolean;
-  [key: string]: any;
 }
 
 export const Navbar = ({ children, className }: NavbarExternalProps) => {

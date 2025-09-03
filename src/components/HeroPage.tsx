@@ -1,15 +1,12 @@
 'use client'
 
 import React from 'react'
-import Image from 'next/image'
 import { Vortex } from './ui/vortex'
 import { AnimatedText } from './AnimatedText';
 import { Button } from './Button';
 import { Button as Button1 } from '@/components/Button';
 
 
-// Local imports
-import { Carousel } from "./ui/carousel";
 
 
 const content = [
@@ -249,9 +246,7 @@ export const HeroPage = () => {
                     My Career Journey
                   </h2>
         
-                  <div className="relative overflow-hidden w-full h-full py-20">
-                    <Carousel slides={slideData} />
-                  </div>
+                
         
                   <a href="#download-cv" className="inline-block w-full text-center px-8 py-4 bg-[#1CA75B] text-white rounded-xl hover:bg-[#158f4b] transition-colors font-semibold">
                     Download Full CV
