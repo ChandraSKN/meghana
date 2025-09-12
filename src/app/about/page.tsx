@@ -278,8 +278,6 @@ export default function AboutPage() {
                   </li>
                 </ul>
               </div>
-
-              
             </div>
           </div>
 
@@ -377,7 +375,7 @@ export default function AboutPage() {
               href="#book-session"
               className="inline-flex items-center px-8 py-4 bg-[#1CA75B] text-white rounded-xl hover:bg-[#158f4b] transition-colors font-semibold"
             >
-              👉 Ready to collaborate? Book a Session
+            Ready to collaborate? Book a Session
             </a>
           </div>
         </div>
